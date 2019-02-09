@@ -1,0 +1,140 @@
+header{
+    background-color: #298049;
+    overflow: hidden;
+    margin-bottom: -1px;
+}
+
+header .title{
+    float: left;
+    width: 70%;
+}
+
+header .title .fa-arrow-left{
+    float: left;
+    color: #fff;
+    margin-top: 33px;
+    margin-left: 23px;
+    font-size: 18px;
+}
+
+header .title h3{
+    color: #fff;
+    margin-left: 75px;
+    font-weight: 600;
+}
+
+header .title h3 span{
+    font-weight: lighter;
+    color: #f8f4f4;
+    font-size: 15px;
+}
+
+
+header .icons{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+header .icons .fa-search,header .icons .fa-ellipsis-v{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 33px;
+}
+
+
+/* Start user  */
+.user{
+    overflow: hidden;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+
+
+.logo{
+    float: left;
+    width: 100%;
+}
+
+.logo .fa-users{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 16px;
+    background-color: #05d605;
+    color: #fff;
+    border-radius: 150px;
+    font-size: 20px;
+}
+
+.logo .fa-user-plus{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 16px;
+    background-color: #05d605;
+    color: #fff;
+    border-radius: 150px;
+    font-size: 20px;
+    width: 53px;
+}
+
+.logo .fa-share-alt{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #928a8a;
+    font-size: 22px;
+    padding: 16px;
+}
+
+
+.logo .fa-question-circle{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #928a8a;
+    font-size: 22px;
+    padding: 16px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo .group{
+    margin-top: 20px;
+}
+
+.logo h4{
+    color: #000;
+    font-weight: 600;
+}
+
+.logo h4 span{
+    font-weight: lighter;
+    color: #928a8a;
+    font-size: 15px;
+}
+
+.fa-long-arrow-left{
+    margin-right: 6px;
+    color: red;
+    margin-top: 2px;
+    transform: rotateZ(-40deg);
+}
+
+.fa-long-arrow-right{
+    margin-right: 6px;
+    color: #05d605;
+    margin-top: 2px;
+    transform: rotateZ(-40deg);
+}
+/* End user  */

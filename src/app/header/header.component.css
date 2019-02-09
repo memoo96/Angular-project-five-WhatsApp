@@ -1,0 +1,98 @@
+header{
+    background-color: #298049;
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: -1px;
+}
+
+header .title{
+    float: left;
+    width: 70%;
+}
+
+header .title h3{
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+header .icons{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+
+header .icons .fa-search,header .icons .fa-ellipsis-v{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 26px;
+}
+
+/* Start navbar  */
+nav{
+    background-color: #298049;
+    height: 46px;
+    overflow: hidden;
+}
+
+.camera{
+    float: left;
+    width: 10%;
+    position: relative;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.camera input[type="file"]:before{
+    content: 'Select files';
+    display: inline-block;
+    background: #fff;
+    padding: 5px 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.camera input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+}
+  
+
+nav .navbar{
+    float: left;
+    width: 90%;
+}
+
+nav .navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav .navbar ul li {
+    width: 33.3333333%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+  }  
+
+nav .navbar ul li a {
+    color: #d2d2d2;
+    text-decoration: none;
+    padding:10px;
+    display: block;
+    transition: all 0.7s;
+    font-weight: 600;
+    border-bottom: 3px solid #298049;
+    text-transform: uppercase;
+}
+
+nav .navbar ul li a:hover{
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+/* End navbar  */

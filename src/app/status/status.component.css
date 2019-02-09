@@ -1,0 +1,194 @@
+#whatsapp{
+    max-width: 500px;
+    height: 650px;
+    margin:25px auto;
+    background-color: #fdfdfd;
+    box-shadow: 3px 5px 30px #298049;
+}
+/* Start user  */
+.user{
+    overflow: hidden;
+    margin-top: 7px;
+    border-bottom: 1px solid #f3e8e8;
+    padding: 5px;
+}
+
+
+
+.logo{
+    float: left;
+    width: 50%;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo .status{
+    cursor: pointer;
+}
+
+.logo .status-img{
+    border: 4px solid #bbb4b4;
+    padding: 1px;
+}
+
+.logo h4{
+    color: #000;
+    font-weight: 600;
+}
+
+.logo h4 span{
+    font-weight: lighter;
+    color: #928a8a;
+    font-size: 15px;
+}
+
+.date{
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.date .fa-ellipsis-h{
+    margin-right: 20px;
+    color: #298049;
+    font-size: 20px;
+}
+/* End user  */
+
+.icon-pencil{
+    position: fixed;
+    bottom: 17%;
+    right: 33%;
+}
+
+.icon-pencil a{
+    display: block;
+    text-align: center;
+}
+
+.icon-pencil a .fa-pencil{
+    color: #7d7a7a;
+    padding: 15px;
+    background-color: #d8dad9;
+    border-radius: 150px;
+    font-size: 24px;
+    width: 53px;
+    cursor: pointer;
+}
+
+.icon-camera{
+    position: fixed;
+    bottom: 7%;
+    right: 33%;
+}
+
+.icon-camera a{
+    display: block;
+    text-align: center;
+}
+
+.icon-camera a .fa-camera{
+    color: #fff;
+    padding: 15px;
+    background-color: #00e454;
+    border-radius: 150px;
+    font-size: 24px;
+    width: 53px;
+    cursor: pointer;
+}
+
+.updates{
+    border-bottom: 1px solid #f3e8e8;
+    background-color: #efecec;
+    padding: 1px;
+}
+
+.updates p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #787976;
+}
+
+
+
+
+#confirmBox
+{
+    display: none; 
+    background-color: #2196F3;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+    width: 37%;
+    height: 78%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#confirmBox textarea{
+    width: 100%;
+    height: 86%;
+    outline: 0;
+    resize: none;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40%;
+    background-color: #2196F3;
+}    
+#confirmBox a{
+    display: block;
+    text-align: right;
+}
+
+#confirmBox a .fa-paper-plane{
+    color: #fff;
+    padding: 15px;
+    background-color: #00e454;
+    border-radius: 150px;
+    font-size: 24px;
+    width: 53px;
+    margin-right: 20px;
+}
+
+#confirmBox .message
+{
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.fa-times{
+    position: absolute;
+    right: 20px;
+    top:10px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.file::before{
+    content: 'Select files';
+    display: inline-block;
+    background: #fff;
+    padding: 5px 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.file{
+    position: fixed;
+    right: 250px;
+    bottom: 60px;
+    opacity: 0;
+}

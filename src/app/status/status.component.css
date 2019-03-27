@@ -192,3 +192,64 @@
     bottom: 60px;
     opacity: 0;
 }
+
+@media (max-width:767px) {
+    #whatsapp{
+        margin:0px auto;
+    }
+    .icon-pencil{
+        position: fixed;
+        bottom: 20%;
+        right: 18%;
+    }
+    .icon-camera{
+        position: fixed;
+        bottom: 10%;
+        right: 18%;
+    }
+    #confirmBox{
+        width: 90%;
+        height: 75%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #whatsapp{
+        margin:0px auto;
+    }
+    .icon-pencil{
+        position: fixed;
+        bottom: 20%;
+        right: 25%;
+    }
+    .icon-camera{
+        position: fixed;
+        bottom: 10%;
+        right: 25%;
+    }
+    #confirmBox{
+        width: 42%;
+        height: 75%;
+    }
+  
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    #whatsapp{
+        margin:0px auto;
+    }
+    .icon-pencil{
+        position: fixed;
+        bottom: 20%;
+        right: 29%;
+    }
+    .icon-camera{
+        position: fixed;
+        bottom: 10%;
+        right: 29%;
+    }
+    #confirmBox{
+        width: 42%;
+        height: 75%;
+    }
+}

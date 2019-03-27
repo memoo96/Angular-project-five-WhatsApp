@@ -64,3 +64,27 @@
     width: 53px;
 }
 
+@media (max-width:767px) {
+    .icon-phone{
+        position: fixed;
+        bottom: 12%;
+        right: 17%;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .icon-phone{
+        position: fixed;
+        bottom: 12%;
+        right: 25%;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .icon-phone{
+        position: fixed;
+        bottom: 12%;
+        right: 33%;
+    }
+}
+

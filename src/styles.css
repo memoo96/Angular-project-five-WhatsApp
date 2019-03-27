@@ -21,3 +21,30 @@ body{
     clear: both;
 }
 
+@media (max-width:767px) {
+    #whatsapp{
+        max-width: 500px;
+        margin:0 auto;
+        background-color: #fdfdfd;
+        box-shadow: 3px 5px 30px #298049;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #whatsapp{
+        max-width: 500px;
+        margin:0 auto;
+        background-color: #fdfdfd;
+        box-shadow: 3px 5px 30px #298049;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    #whatsapp{
+        max-width: 500px;
+        margin:0 auto;
+        background-color: #fdfdfd;
+        box-shadow: 3px 5px 30px #298049;
+    }
+}
+

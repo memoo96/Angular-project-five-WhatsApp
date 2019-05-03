@@ -25,6 +25,7 @@
     "terser": "^3.14.1",
     "tslib": "^1.9.0",
     "webpack-dev-server": "^3.1.14",
+    "tar": ">=4.4.2",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
